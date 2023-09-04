@@ -46,7 +46,7 @@ img {
 
 ul {
   list-style-type: none;
-  display: flex;
+  display: grid;
   gap: 20px;
   list-style-position: inside;
   align-items: center;

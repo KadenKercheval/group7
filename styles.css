@@ -48,14 +48,10 @@ ul {
   list-style: none;
   display: flex;
   gap: 20px;
+  columns: 2;
+  list-style-position: inside;
   align-items: center;
   padding-right: 14px;
-}
-
-.columns{
-  float: left;
-  position: center;
-  margin-right: 20px;
 }
 
 a:link {

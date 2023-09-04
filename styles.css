@@ -45,7 +45,7 @@ img {
 }
 
 ul {
-  list-style: none;
+  list-style-type: disc;
   display: flex;
   gap: 20px;
   columns: 2;

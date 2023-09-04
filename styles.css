@@ -52,6 +52,12 @@ ul {
   padding-right: 14px;
 }
 
+.columns{
+  float: left;
+  position: relative;
+  margin-right: 20px;
+}
+
 a:link {
   text-decoration: none;
   color: #fafafa;

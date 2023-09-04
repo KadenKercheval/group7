@@ -45,11 +45,15 @@ img {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   display: flex;
   gap: 20px;
+  list-style-position: inside;
   align-items: center;
   padding-right: 14px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 a:link {
@@ -127,8 +131,9 @@ a.active-route {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #71717a;
+  font-weight: 800;
+  font-size: 30px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -189,4 +194,41 @@ a.active-route {
   .text {
     font-size: 11px;
   }
+}
+/* Matthew's CSS styles */
+h1 {
+  color: #500000;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+h2 {
+  color: #500000;
+  font-family: "Figtree", sans-serif;
+}
+#overflow-hidden {
+  overflow: scroll;
+}
+li,
+ol {
+  font-family: "Figtree", sans-serif;
+  padding-left: 20px;
+}
+.ingredients,
+.instructions {
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.6;
 }

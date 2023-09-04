@@ -99,8 +99,7 @@ a.active-route {
   color: #500000;
   margin-bottom: 20px;
   font-family: "Figtree", sans-serif;
-  max-width: 640px;
-  text-align: right;
+  text-align: center;
 }
 
 /* Next & previous buttons */
@@ -186,7 +185,10 @@ a.active-route {
     opacity: 1;
   }
 }
-
+#logo {
+  height: 80px;
+  aspect-ratio: auto;
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev,

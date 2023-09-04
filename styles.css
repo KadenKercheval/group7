@@ -51,6 +51,9 @@ ul {
   list-style-position: inside;
   align-items: center;
   padding-right: 14px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 a:link {
